@@ -1,5 +1,7 @@
 # Ot harjoitustyö
 
+[Tuntikirjanpito](https://github.com/saarasalme/ot-harjoitustyo/blob/main/tuntikirjanpito.md)
+
 # Tehtävät
 
 ### Viikko1

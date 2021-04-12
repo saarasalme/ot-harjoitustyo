@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "RoniPoika"
+version = "0.1.0"
+description = "harjoitustyö"
+authors = ["Saara <saara.salmensaari@helsinki.fi>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pygame = "^2.0.1"
+coverage = "^5.5"
+
+[tool.poetry.dev-dependencies]
+invoke = "^1.5.0"
+pytest = "^6.2.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

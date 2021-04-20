@@ -14,6 +14,8 @@ Ohjelma on testattu Python-versiolla '3.9.0'. Etenkin vanhempien Python-versioid
 
 [Vaatimusmäärittely](https://github.com/saarasalme/ot-harjoitustyo/blob/main/dokumentaatio/vaatimusmaarittely.md)
 
+[Arkkitehtuuri](https://github.com/saarasalme/ot-harjoitustyo/blob/main/dokumentaatio/arkkitehtuuri.md)
+
 ## Asennus
 
 1. Asenna riippuvuudet komennolla:
@@ -55,6 +57,15 @@ poetry run invoke coverage-report
 ```
 
 Raportti generoituu _htmlcov_-hakemistoon.
+
+
+### Pylint
+
+Pylintin pystyy suorittamaan komennolla
+
+```bash
+poetry run invoke lint
+```
 
 
 *Python projekti*

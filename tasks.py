@@ -1,7 +1,7 @@
 from invoke import task
 @task
 def start(ctx):
-    ctx.run("python3 ./RoniPoika.py")
+    ctx.run("python3 ./src/roni_poika.py")
 
 
 @task
@@ -14,4 +14,7 @@ def coverage_report(ctx):
 
 @task
 def test(ctx):
-    ctx.run("pytest ./tests/ronipoika_test.py")
+    ctx.run("pytest ./src/tests/snacks_test.py")
+@task
+def lint(ctx):
+    ctx.run("pylint src")

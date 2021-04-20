@@ -1,8 +1,8 @@
 import unittest
-from RoniPoika import Snacks
+from ..entities.snaks import Snacks
 
 
-class TestGame(unittest.TestCase):
+class TestSnaks(unittest.TestCase):
     def setUp(self):
         self.snacks = Snacks()
 
@@ -14,6 +14,3 @@ class TestGame(unittest.TestCase):
 
     def test_treats_exists(self):
         self.assertIsNotNone(self.snacks.treats)
-
-        
-    

@@ -22,7 +22,7 @@ Sovellus aukeaa aloitusnäkymään mistä pääsee pelinäkymään. Pelistä pä
 - Käyttäjä voi aloittaa pelin
 
 ### Pelissä
-- Käyttäjä liikuttaa hahmoaan hiirellä
+- Käyttäjä liikuttaa hahmoaan näppäimistöllä (tehty)
 - Käyttäjä voi hahmollaan kerätä pieniä herkkuja
 - Käyttäjä väistelee isompia herkkuja
 - Käyttäjä voi palata aloitusvalikkoon
@@ -32,7 +32,7 @@ Sovellus aukeaa aloitusnäkymään mistä pääsee pelinäkymään. Pelistä pä
 - Käyttäjä näkee tuloksen
 - Käyttäjä näkee highscoren
 - Käyttäjä voi pelata uudestaan
-- Käyttäjä voi sulkea pelin
+- Käyttäjä voi sulkea pelin (tehty)
 
 ## Jatkokehitysideoita
 Ajan salliessa peliä voisi kehittää esimerkiksi näin:

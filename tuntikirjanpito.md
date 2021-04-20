@@ -5,4 +5,6 @@
 | 25.3.21 | 1 | Materiaaliin tutustuminen ja ideointi | |
 | 30.3.21 | 1 | Vaatimusdokumentin luominen, dokumentaation lisäys | |
 | 12.4.21 | 6 | Projektin alustaminen ja suunnittelu | |
-| | | | 8 |
+| 18.4.21 | 3 | Pelihahmoa pystyy liikuttamaan | |
+| 20.4.21 | 3 | Dokumentaation ja ohjelmarakenteen päivitys ||
+| | | | 14 |

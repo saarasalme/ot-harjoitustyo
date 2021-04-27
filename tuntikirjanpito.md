@@ -7,4 +7,7 @@
 | 12.4.21 | 6 | Projektin alustaminen ja suunnittelu | |
 | 18.4.21 | 3 | Pelihahmoa pystyy liikuttamaan | |
 | 20.4.21 | 3 | Dokumentaation ja ohjelmarakenteen päivitys ||
-| | | | 14 |
+| 25.4.21 | 1 | Suunnittelua ja snack-moduulin jatkamista ||
+| 26.4.21 | 2 | Herkkujen toiminnallisuutta kehitetty ||
+| 27.4.21 | 3 | Dokumentaation ja ohjelmarakenteen päivitys ||
+| | | | 20 |

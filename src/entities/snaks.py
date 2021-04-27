@@ -8,11 +8,15 @@ class Snacks:
         self.treats = []
 
     def add_snack(self):
-        snack = choice([self.sausages, self.meatballs, self.treats])
-        from_up = [randint(0, 640), -20]
-        from_right = [660, randint(0, 480)]
-        from_down = [randint(0, 640), 500]
-        from_left = [-20, randint(0, 480)]
-        direction = choice([from_up, from_right, from_left, from_down])
-        snack.append(direction)
+        chance = randint(0,100)
+        if chance == 0:
+            snack = choice([self.sausages, self.meatballs, self.treats])
+            from_up = [randint(0, 640), -20, "go_down"]
+            from_right = [660, randint(0, 480), "go_left"]
+            from_down = [randint(0, 640), 500, "go_up"]
+            from_left = [-20, randint(0, 480), "go_right"]
+            direction = choice([from_up, from_right, from_left, from_down])
+            snack.append(direction)
+
+    
         

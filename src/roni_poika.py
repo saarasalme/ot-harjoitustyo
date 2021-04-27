@@ -1,7 +1,17 @@
-from .ui.game import Game
+from ui.game import Game
 
+class RoniPoika():
+    def __init__(self):
+        self.game = Game
 
-if __name__ == "__main__":
+    def loop(self):
+        while True:
+            self.game.handle_events()
+            self.game.draw_screen()
 
-    g = Game()
-    g.draw_screen()
+if __name__ == "__main__":    
+    r = RoniPoika()
+    r.loop()
+#    g = Game()
+#    g.draw_screen()
+

@@ -8,6 +8,6 @@
 | 18.4.21 | 3 | Pelihahmoa pystyy liikuttamaan | |
 | 20.4.21 | 3 | Dokumentaation ja ohjelmarakenteen päivitys ||
 | 25.4.21 | 1 | Suunnittelua ja snack-moduulin kehittäminen ||
-| 26.4.21 | 2 | snack-moduulin kehitystä jatkettu ||
+| 26.4.21 | 2 | Snack-moduulin kehitystä jatkettu ||
 | 27.4.21 | 3 | Dokumentaation ja ohjelmarakenteen päivitys ||
 | | | | 20 |

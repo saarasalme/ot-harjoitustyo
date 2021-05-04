@@ -8,4 +8,4 @@ Sovellus koostuu kolmesta pakkauksesta. UI sisältää käyttöliittymään kuul
 
 ## Peli-loopin kulku
 
-![](https://github.com/saarasalme/ot-harjoitustyo/blob/main/dokumentaatio/RonipoikaSekevenssi.png)
+![](https://github.com/saarasalme/ot-harjoitustyo/blob/main/dokumentaatio/RonipoikaSekvenssi.png)

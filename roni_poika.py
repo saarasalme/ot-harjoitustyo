@@ -1,8 +1,8 @@
-from ui.game import Game
+from src.ui.game import Game
 
 class RoniPoika():
     def __init__(self):
-        self.game = Game
+        self.game = Game()
 
     def loop(self):
         while True:

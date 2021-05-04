@@ -1,6 +1,5 @@
 from random import randint, choice
 
-
 class Snacks:
     def __init__(self):
         self.sausages = []
@@ -17,6 +16,3 @@ class Snacks:
             from_left = [-20, randint(0, 480), "go_right"]
             direction = choice([from_up, from_right, from_left, from_down])
             snack.append(direction)
-
-    
-        

@@ -1,6 +1,6 @@
 import pygame
-from ..entities.snacks import Snacks
-from ..logic.mover import Mover
+from src.entities.snacks import Snacks
+from src.logic.mover import Mover
 
 class Game:
     def __init__(self):
@@ -61,7 +61,10 @@ class Game:
                 if event.key == pygame.K_UP:
                     self.up = False
 
-        self.mover.move_roni()
+        new_x_y = self.mover.move_roni(self.left, self.right, self.down, self.up, self.roni_x, self.roni_y)
+        self.roni_x = new_x_y[0]
+        self.roni_y = new_x_y[1]
+
         self.snacks.add_snack()
         for snack in self.snacks.sausages:
             self.mover.move_snack(snack)
@@ -71,17 +74,13 @@ class Game:
             self.mover.move_snack(snack) 
 
     def draw_screen(self):
-        while True:
-            self.screen.fill((255, 204, 233))
-            self.screen.blit(self.roni, (self.roni_x, self.roni_y))
-            for snack in self.snacks.sausages:
-                self.screen.blit(self.sausage, (snack[0], snack[1]))
-            for snack in self.snacks.meatballs:
-                self.screen.blit(self.meatball, (snack[0], snack[1]))
-            for snack in self.snacks.treats:
-                self.screen.blit(self.treat, (snack[0], snack[1]))
-            pygame.display.flip()
-            self.clock.tick(60)
-
-
-            self.move_roni()
+        self.screen.fill((255, 204, 233))
+        self.screen.blit(self.roni, (self.roni_x, self.roni_y))
+        for snack in self.snacks.sausages:
+            self.screen.blit(self.sausage, (snack[0], snack[1]))
+        for snack in self.snacks.meatballs:
+            self.screen.blit(self.meatball, (snack[0], snack[1]))
+        for snack in self.snacks.treats:
+            self.screen.blit(self.treat, (snack[0], snack[1]))
+        pygame.display.flip()
+        self.clock.tick(60)

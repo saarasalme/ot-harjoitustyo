@@ -3,3 +3,6 @@
 /laskarit/viikko2/unicafe/htmlcov
 **/htmlcov
 **/.pytest_cache
+**/__pycache__
+**/build
+**/dist

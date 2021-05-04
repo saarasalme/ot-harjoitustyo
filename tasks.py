@@ -1,8 +1,7 @@
 from invoke import task
 @task
 def start(ctx):
-    ctx.run("python3 src/roni_poika.py")
-
+    ctx.run("python3 -m roni_poika")
 
 @task
 def coverage(ctx):

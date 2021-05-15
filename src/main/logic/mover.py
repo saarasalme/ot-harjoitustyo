@@ -5,10 +5,10 @@ class Mover():
 
     def __init__(self):
         self.speed = 3
-        self.width = 40
-        self.height = 41
+        self.sizes = [(63,40),(79,50),(88,60)]
 
-    def move_roni(self, left, right, down, up, roni_x, roni_y):
+
+    def move_roni(self, left, right, down, up, roni_x, roni_y, level):
         """ This method moves the player 
         Args:
         left - boolean representing if the player is moving left
@@ -19,16 +19,16 @@ class Mover():
         roni_y - payers y_coordinate
         """
         if left:
-            if roni_x > 0:
+            if roni_x >= 3:
                 roni_x -= self.speed
         if right:
-            if roni_x < 640 - self.width:
+            if roni_x <= 640 - self.sizes[level-1][0] - 3:
                 roni_x += self.speed
         if down:
-            if roni_y < 480 - self.height:
+            if roni_y <= 480 - self.sizes[level-1][1] - 3:
                 roni_y += self.speed
         if up:
-            if roni_y > 0:
+            if roni_y >= 3:
                 roni_y -= self.speed
         return roni_x, roni_y
 

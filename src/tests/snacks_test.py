@@ -1,5 +1,5 @@
 import unittest
-from ..entities.snaks import Snacks
+from main.entities.snacks import Snacks
 
 
 class TestSnaks(unittest.TestCase):

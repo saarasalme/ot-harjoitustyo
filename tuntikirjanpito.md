@@ -10,4 +10,5 @@
 | 25.4.21 | 1 | Suunnittelua ja snack-moduulin kehittäminen ||
 | 26.4.21 | 2 | Snack-moduulin kehitystä jatkettu ||
 | 27.4.21 | 3 | Dokumentaation ja ohjelmarakenteen päivitys ||
-| | | | 20 |
+| 4.5.21 | 3.5 | Edellisen viikon vikojen korjaus ||
+| | | | 23.5 |

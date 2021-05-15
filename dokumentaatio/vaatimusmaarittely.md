@@ -23,6 +23,7 @@ Sovellus aukeaa aloitusnäkymään mistä pääsee pelinäkymään. Pelistä pä
 
 ### Pelissä
 - Käyttäjä liikuttaa hahmoaan näppäimistöllä (tehty)
+- Näytöllä liikkuu satunnaisesti herkkuja (tehty)
 - Käyttäjä voi hahmollaan kerätä pieniä herkkuja
 - Käyttäjä väistelee isompia herkkuja
 - Käyttäjä voi palata aloitusvalikkoon

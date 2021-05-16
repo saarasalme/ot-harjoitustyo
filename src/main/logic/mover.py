@@ -7,17 +7,22 @@ class Mover():
         self.speed = 3
         self.sizes = [(63,40),(79,50),(88,60)]
 
-
     def move_roni(self, left, right, down, up, roni_x, roni_y, level):
-        """ This method moves the player 
+        """ This method moves the player
+
         Args:
-        left - boolean representing if the player is moving left
-        right - boolean representing if the player is moving right
-        down - boolean representing if the player is moving down
-        up - boolean representing if the player is moving up
-        roni_x - players x_coordinate
-        roni_y - payers y_coordinate
+            left - boolean representing if the player is moving left
+            right - boolean representing if the player is moving right
+            down - boolean representing if the player is moving down
+            up - boolean representing if the player is moving up
+            roni_x - players x_coordinate
+            roni_y - players y_coordinate
+
+        Returns:
+            roni_x - players new x_coordinate
+            roni_y - players new y_coordinate
         """
+
         if left:
             if roni_x >= 3:
                 roni_x -= self.speed
@@ -35,7 +40,11 @@ class Mover():
     def move_snack(self, coordinates: list):
         """ This method moves snacks
         Args:
-        coordinates - the x and y coordinates of the snack"""
+            coordinates - the x and y coordinates of the snack
+        Returns:
+            coordinates - the new x and y coordinates of the snack
+        """
+
         now = time.localtime()
         seconds = time.strftime("%S", now)
         if int(seconds) % 2 == 0:
@@ -64,5 +73,5 @@ class Mover():
             if coordinates[2] == "go_right":
                 coordinates[0] += 2
                 coordinates[1] -= 1
-        
+
         return coordinates

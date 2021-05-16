@@ -7,7 +7,6 @@ class Snacks:
         """ The class constructor """
         self.snacks = []
 
-
     def add_snack(self, level):
         """ This method creates snacks in random places around the screen """
         chance = randint(0,60)

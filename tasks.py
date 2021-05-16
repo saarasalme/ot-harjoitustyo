@@ -5,10 +5,10 @@ def start(ctx):
 
 @task
 def coverage(ctx):
-    ctx.run("coverage run --branch -m pytest src/")
+    ctx.run("coverage run --branch --omit=**/__init__.py,**/game.py,**/snacks.py --source=src/main -m pytest src")
 
 @task(coverage)
-def coverage_report(ctx):
+def coverageReport(ctx):
     ctx.run("coverage html")
 
 @task
@@ -17,4 +17,4 @@ def test(ctx):
     
 @task
 def lint(ctx):
-    ctx.run("pylint src")
+    ctx.run("pylint src/main")

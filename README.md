@@ -22,7 +22,7 @@ Ohjelma on testattu Python-versiolla '3.9.0'. Ainakin versiosta '3.6' uudemmat t
 
 ## Asennus
 
-Ohjelman käynnistämistä varten täytyy asentaa *Poetry* työkalu. Asennusohjeet löytyy [täältä](https://python-poetry.org/docs/)
+Ohjelman käynnistämistä varten täytyy asentaa *Poetry* työkalu. Asennusohjeet löytyvät [täältä](https://python-poetry.org/docs/)
 
 Jos Poetry ei jostakin syystä toimi suoraan komentoriviltä, voi työkalun UNIX järjestelmillä käynnistää suoraan komennolla
 

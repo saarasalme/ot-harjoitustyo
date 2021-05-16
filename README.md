@@ -6,15 +6,19 @@ RoniPoika on ohjelmistotekniikan kurssin harjoitustyö.
 
 ## Huomio Python-versiosta
 
-Ohjelma on testattu Python-versiolla '3.9.0'. Ainakin versiosta '3.6' uudemmat toimivet.
+Ohjelma on testattu Python-versiolla '3.9.0'. Ainakin versiosta '3.6' uudemmat toimivat.
 
 ## Dokumentaatio
+
+[Käyttöohje](https://github.com/saarasalme/ot-harjoitustyo/blob/main/dokumentaatio/kayttoohje.md)
 
 [Tuntikirjanpito](https://github.com/saarasalme/ot-harjoitustyo/blob/main/tuntikirjanpito.md)
 
 [Vaatimusmäärittely](https://github.com/saarasalme/ot-harjoitustyo/blob/main/dokumentaatio/vaatimusmaarittely.md)
 
 [Arkkitehtuuri](https://github.com/saarasalme/ot-harjoitustyo/blob/main/dokumentaatio/arkkitehtuuri.md)
+
+[Testausdokumentti](https://github.com/saarasalme/ot-harjoitustyo/blob/main/dokumentaatio/testaus.md)
 
 ## Asennus
 

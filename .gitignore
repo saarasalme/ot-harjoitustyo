@@ -4,5 +4,4 @@
 **/build
 **/dist
 **/.coverage
-resources/highscore.csv
 .vscode

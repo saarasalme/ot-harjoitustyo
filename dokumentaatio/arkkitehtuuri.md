@@ -18,7 +18,7 @@ Sovelluksen käyttöliittymä koostuu kuudesta näkymästä:
 	Voittonäyttö - Pelin voittamisen jälkeen näytettävä näkymä
 	Häviönäyttö - Pelin häviämisen jälkeen näytettävä näkymä
  
-![](https://näyttökulku)
+![](https://github.com/saarasalme/ot-harjoitustyo/blob/main/dokumentaatio/kuvat/RonipoikaNaytot.png)
  
 Sovellus käynnistyy aina Aloitusnäyttöön, josta voi kulkea Pistenäyttöön ja Ohjenäyttöön. Näistä kolmesta pystyy myös siirtymään Pelinäyttöön. Pelinäytöstä siirrytään joko Voittonäyttöön, tai Häviönäyttöön, joista molemmista pääsee Pistenäyttöön ja Pelinäyttöön. Häviönäytöstä pääsee myös siirtymään Ohjenäyttöön.
  
@@ -28,7 +28,7 @@ Kaikki näkymät sisältyvät Game-luokkaan omina metodeinaan.
  
 Sovelluksen laskentalogiikka kuuluu *logic* kansioon. Kansio sisältää *mover* ja *collision* luokat. Mover -luokka sisältää pelaajan ja *Snack* olioiden liikuttamiseen liittyvän logiikan. Collision -luokka sisältää pelaajan ja *Snack* olioiden välisten törmäysten laskentaan kuuluvan logiikan.
  
-![](https://logiikkapaketti)
+![](https://github.com/saarasalme/ot-harjoitustyo/blob/main/dokumentaatio/kuvat/RoniPoikaLogiikka.png)
  
 ### Pisteiden tallentaminen
  

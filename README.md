@@ -12,7 +12,7 @@ Ohjelma on testattu Python-versiolla '3.9.0'. Ainakin versiosta '3.6' uudemmat t
 
 [Käyttöohje](https://github.com/saarasalme/ot-harjoitustyo/blob/main/dokumentaatio/kayttoohje.md)
 
-[Tuntikirjanpito](https://github.com/saarasalme/ot-harjoitustyo/blob/main/tuntikirjanpito.md)
+[Tuntikirjanpito](https://github.com/saarasalme/ot-harjoitustyo/blob/main/dokumentaatio/tuntikirjanpito.md)
 
 [Vaatimusmäärittely](https://github.com/saarasalme/ot-harjoitustyo/blob/main/dokumentaatio/vaatimusmaarittely.md)
 

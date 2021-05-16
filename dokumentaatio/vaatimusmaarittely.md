@@ -9,8 +9,8 @@ Pelin edetessä hahmo kasvaa ja tasot vaikenevat.
 
 Peli on yksinpeli, joten on yksi normaali käyttäjä käyttäjärooli. 
 
-## Käyttöliittymäluonnos
-![](https://github.com/saarasalme/ot-harjoitustyo/blob/main/dokumentaatio/IMG_7005.JPG)
+## Käyttöliittymä
+![](https://github.com/saarasalme/ot-harjoitustyo/blob/main/dokumentaatio/kuvat/RonipoikaNaytot.png)
 
 
 Sovellus aukeaa aloitusnäkymään mistä pääsee pelinäkymään, ohjenäkymään tai parhaat tulokset -näkymään. Pelistä pääsee ohjenäkymään tai peli päättyi -näkymään. Peli päättyi näkymiä on kaksi, toinen voitolle ja toinen häviölle. Peli päättyi -näkymästä voi palata pelinäkymään, ohjeeseen tai parhaat tulokset näkymään.

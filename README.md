@@ -6,7 +6,7 @@ RoniPoika on ohjelmistotekniikan kurssin harjoitustyö.
 
 ## Huomio Python-versiosta
 
-Ohjelma on testattu Python-versiolla '3.9.0'. Etenkin vanhempien Python-versioiden kanssa saattaa ilmetä ongelmia.
+Ohjelma on testattu Python-versiolla '3.9.0'. Ainakin versiosta '3.6' uudemmat toimivet.
 
 ## Dokumentaatio
 
@@ -17,6 +17,14 @@ Ohjelma on testattu Python-versiolla '3.9.0'. Etenkin vanhempien Python-versioid
 [Arkkitehtuuri](https://github.com/saarasalme/ot-harjoitustyo/blob/main/dokumentaatio/arkkitehtuuri.md)
 
 ## Asennus
+
+Ohjelman käynnistämistä varten täytyy asentaa *Poetry* työkalu. Asennusohjeet löytyy [täältä](https://python-poetry.org/docs/)
+
+Jos Poetry ei jostakin syystä toimi suoraan komentoriviltä, voi työkalun UNIX järjestelmillä käynnistää suoraan komennolla
+
+```
+python3 ~/.poetry/bin/poetry {komento}
+```
 
 1. Asenna riippuvuudet komennolla:
 

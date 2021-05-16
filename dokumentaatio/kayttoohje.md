@@ -1,6 +1,6 @@
 # Käyttöohje
 
-Lataa projektin viimeisin lähdekoodi (linkki)
+Lataa projektin viimeisin lähdekoodi [täältä](https://github.com/saarasalme/ot-harjoitustyo/releases/tag/1.0).
 
 ## Ohjelman käynnistäminen
 
